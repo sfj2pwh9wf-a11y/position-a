@@ -1,0 +1,26 @@
+ADIKUS BACKGAMMON ANALYZER — FULL POSITION BUILD
+
+Upload/replace these files in the GitHub repository:
+  app.py
+  requirements.txt
+  runtime.txt
+  README.md
+
+Do not mix app.py from an older ZIP with another version's requirements.txt.
+
+Streamlit Community Cloud:
+  Branch: main
+  Main file: app.py
+  Python: 3.13
+
+The app now:
+  - reconstructs both players' positions;
+  - checks the bar;
+  - infers borne-off checkers;
+  - displays the detected point-by-point position;
+  - sends the full 2x25 board to GNUBG;
+  - analyzes the current dice with 2-ply neural-net evaluation;
+  - exposes engine candidates when available.
+
+For each screenshot, verify the WHITE and BLACK lines before trusting a move.
+If the reconstructed board is wrong, do not use the move; fix the image mapping.

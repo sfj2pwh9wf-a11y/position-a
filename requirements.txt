@@ -1,0 +1,5 @@
+streamlit==1.62.0
+opencv-python-headless>=4.10
+numpy>=1.26
+Pillow>=10.0
+gnubg-nn==1.1.0a8
